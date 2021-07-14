@@ -1,0 +1,58 @@
+<!--pages/component/category/category.wxml-->
+<block>
+  <view class="cate-box">
+
+    <view class="cate-banner">
+      <image src="../../../images/c1.png"></image>
+    </view>
+
+    <view class="cate-title">
+      <text>进口水果</text>
+    </view>
+
+    <view class="product">
+      <view class="product-list">
+        <navigator url="../details_xm/details_xm">
+          <image src="../../../images/xm.png"></image>
+          <view class="classname"><text>智利 进口西梅 约500g</text></view>
+        </navigator>
+      </view>
+    </view>
+
+    <view class="product">
+      <view class="product-list">
+        <navigator url="../details_hlg/details_hlg">
+          <image src="../../../images/hlg.png"></image>
+          <view class="classname"><text>越南进口红心火龙果</text></view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</block>
+
+<block>
+  <view class="cate-box">
+
+    <view class="cate-title">
+      <text>国产水果</text>
+    </view>
+
+    <view class="product">
+      <view class="product-list">
+        <navigator url="../details_bxg/details_bxg">
+          <image src="../../../images/bxg.png"></image>
+          <view class="classname"><text>百香果 精品中果12个装</text></view>
+        </navigator>
+      </view>
+    </view>
+    
+    <view class="product">
+      <view class="product-list">
+        <navigator url="../details_cm/details_cm">
+          <image src="../../../images/cm.png"></image>
+          <view class="classname"><text>红颜玖玖草莓</text></view>
+        </navigator>
+      </view>
+    </view>    
+  </view>
+</block>

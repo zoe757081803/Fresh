@@ -1,0 +1,37 @@
+<!--pages/component/list/list.wxml-->
+<view class="main">
+    <view class="banner">
+        <image src="../../../images/list1.png"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list">
+                <navigator url="../details_bxg/details_bxg">
+                    <image src="../../../images/bxg.png"></image>
+                    <view class="newest-text"><text>百香果 中果12个装</text></view>
+                    <view class="newest-text"><text>￥ 18.9</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="../details_xm/details_xm">
+                    <image src="../../../images/xm.png"></image>
+                    <view class="newest-text"><text>智利 进口西梅 约500g</text></view>
+                    <view class="newest-text"><text>￥ 29.9</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="../details_cm/details_cm">
+                    <image src="../../../images/cm.png"></image>
+                    <view class="newest-text"><text>红颜玖玖草莓</text></view>
+                    <view class="newest-text"><text>￥ 29.9</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="../details_hlg/details_hlg">
+                    <image src="../../../images/hlg.png"></image>
+                    <view class="newest-text"><text>越南进口红心火龙果</text></view>
+                    <view class="newest-text"><text>￥ 16.9</text></view>
+                </navigator>
+            </view>
+    </view>
+</view>

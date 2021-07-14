@@ -1,0 +1,23 @@
+<!--pages/component/user/user.wxml-->
+<view class="main">
+    <view class="header">
+        <view class="thumb"><open-data type="userAvatarUrl"></open-data></view>
+        <view class='nickname'><open-data type="userNickName"></open-data></view>
+    </view>
+    <view class="address-box">
+        <view class="address-manage">
+            <navigator url="../address/address">
+                <text decode="{{true}}" space="{{true}}">地址管理
+                </text>
+            </navigator>
+        </view>
+        <view wx:if="{{hasAddress}}" class="address-list">
+            <view>{{address.name}}</view>
+            <view>{{address.phone}}</view>
+            <view>{{address.detail}}</view>
+        </view>
+    </view>
+    <view class="orders-box">
+        <view class="orders">我的订单</view>
+    </view>
+</view>
